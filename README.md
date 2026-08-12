@@ -62,7 +62,7 @@ $$\text{Polysubstance Cross-Over Index} = \frac{\text{Psychostimulant Deaths (T4
 ```
 ┌────────────────────────────────────────────────────────┐
 │ 1. Raw Data Ingestion (scripts/01_ingest_data.R)        │
-│ - CDC VSRR Provisional Overdose Mortality (85,626 rows)│
+│ - Automated download of CDC VSRR Provisional Data      │
 │ - HRSA Health Center Program Site Directory            │
 └───────────────────────────┬────────────────────────────┘
                             │
@@ -84,7 +84,7 @@ $$\text{Polysubstance Cross-Over Index} = \frac{\text{Psychostimulant Deaths (T4
 ┌────────────────────────────────────────────────────────┐
 │ 4. Power BI Interactive Dashboard (app.powerbi.com)    │
 │ - Weighted DAX Measures, Shape Heatmap, Line Trends   │
-└────────────────────────────────────────────────────────┘
+└───────────────────────────┬────────────────────────────┘
 ```
 
 ### Methodological Rigor & Data Quality Controls
@@ -107,7 +107,6 @@ DIVIDE(
 ```
 porfolio_project_001/
 ├── data/
-│   ├── raw_cdc_overdose_data.csv        # CDC VSRR Raw Ingested Data (15.3 MB)
 │   ├── clean_state_overdose_summary.csv # Cleaned December Calendar-Year Summary
 │   └── advanced_friction_summary.csv    # Final Dashboard Data File with Friction Metrics
 ├── scripts/
@@ -119,8 +118,7 @@ porfolio_project_001/
 │   └── powerbi_dashboard_blueprint.md   # Visual Wireframe & DAX Specification
 ├── image.png                            # Power BI Dashboard Final Screenshot
 ├── project_journal.md                   # Development Time & Activity Log
-├── portfolio_evaluator.json             # Subagent Evaluation Configuration
-├── system_prompt.txt                    # Subagent Evaluation System Prompt
+├── .gitignore                           # Git Exclusion Configuration
 └── README.md                            # GitHub Project Portfolio Master Readme
 ```
 
