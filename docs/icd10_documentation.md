@@ -1,7 +1,7 @@
 # ICD-10 Surveillance & Friction Point Metrics Reference
 
 **Project**: Mapping High-Risk Overdose Hotspots to Primary Care Clinic Support  
-**Author**: Dr. José I. Peña Bravo  
+**Author**: José I. Peña Bravo, PhD  
 **Date**: August 10, 2026  
 
 ---

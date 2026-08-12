@@ -3,7 +3,7 @@
 **Project Title**: Mapping High-Risk Overdose Hotspots to Primary Care Clinic Support  
 **Target Sectors**: Healthcare, Health Insurance (Payer), Public Health  
 **Core Toolstack**: R (Data Pipeline & Cleaning), Power BI (Interactive Dashboard), GitHub (Open Code/Data)  
-**Author**: Dr. José I. Peña Bravo  
+**Author**: José I. Peña Bravo, PhD  
 **Date Started**: August 10, 2026  
 
 ---

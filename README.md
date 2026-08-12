@@ -18,7 +18,7 @@ This project bridges **doctoral-level addiction neurobiology** and **epidemiolog
 
 ## 👨‍🔬 Domain Background & Author
 
-**Author**: **Dr. José I. Peña Bravo, PhD**  
+**Author**: **José I. Peña Bravo, PhD**  
 *Neurophysiologist • Medical Educator • Healthcare Data Strategist*
 
 * **PhD in Neuroscience** (Medical University of South Carolina): Investigated prefrontal cortex synaptic plasticity and neural circuit mechanisms underlying drug-seeking and relapse behavior.
@@ -145,4 +145,4 @@ Rscript scripts/03_advanced_friction_metrics.R
 ## 📜 License & Acknowledgments
 
 * **Data Sources**: Official open data provided by the **Centers for Disease Control and Prevention (CDC)** and the **Health Resources and Services Administration (HRSA)**.
-* **Author Contact**: Dr. José I. Peña Bravo ([LinkedIn](https://linkedin.com/in/josepenabravo) | [GitHub](https://github.com/jpenabravoj00/opioid-surveillance-catchment-analysis))
+* **Author Contact**: José I. Peña Bravo, PhD ([LinkedIn](https://linkedin.com/in/josepenabravo) | [GitHub](https://github.com/jpenabravoj00/opioid-surveillance-catchment-analysis))
