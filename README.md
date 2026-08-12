@@ -14,8 +14,6 @@ Public health overdose prevention programs face a critical structural friction p
 
 This project bridges **doctoral-level addiction neurobiology** and **epidemiological surveillance** to analyze official open-access government datasets from the **CDC** and **HRSA**. By engineering a reproducible R data pipeline and an interactive Power BI decision-intelligence dashboard, this portfolio piece identifies states where overdose mortality mathematically saturates available Federally Qualified Health Center (FQHC) primary care sites.
 
-![Dashboard Overview](image.png)
-
 ---
 
 ## 👨‍🔬 Domain Background & Author
@@ -102,21 +100,23 @@ DIVIDE(
 
 ---
 
-## 📂 Project Repository Structure
+## 📂 Public GitHub Repository Structure
+
+Below is the verified list of files uploaded to your GitHub repository:
 
 ```
-porfolio_project_001/
+opioid-surveillance-catchment-analysis/
 ├── data/
 │   ├── clean_state_overdose_summary.csv # Cleaned December Calendar-Year Summary
-│   └── advanced_friction_summary.csv    # Final Dashboard Data File with Friction Metrics
+│   └── advanced_friction_summary.csv    # Final Dashboard Summary Data with Friction Metrics
 ├── scripts/
-│   ├── 01_ingest_data.R                 # R Script: Automated Dataset Download & Inspection
+│   ├── 01_ingest_data.R                 # R Script: Automated Data Ingestion & Download
+│   ├── 02_inspect_cdc.R                 # R Script: CDC Indicator & Data Structure Verification
 │   ├── 02_clean_data.R                  # R Script: December Filtering & Suppression Control
-│   └── 03_advanced_friction_metrics.R   # R Script: Friction Metrics & HRSA Spatial Joins
+│   └── 03_advanced_friction_metrics.R   # R Script: Friction Metrics & Spatial Aggregations
 ├── docs/
 │   ├── icd10_documentation.md           # ICD-10 Surveillance & Metric Reference
 │   └── powerbi_dashboard_blueprint.md   # Visual Wireframe & DAX Specification
-├── image.png                            # Power BI Dashboard Final Screenshot
 ├── project_journal.md                   # Development Time & Activity Log
 ├── .gitignore                           # Git Exclusion Configuration
 └── README.md                            # GitHub Project Portfolio Master Readme
