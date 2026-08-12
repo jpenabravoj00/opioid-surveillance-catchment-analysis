@@ -145,4 +145,4 @@ Rscript scripts/03_advanced_friction_metrics.R
 ## 📜 License & Acknowledgments
 
 * **Data Sources**: Official open data provided by the **Centers for Disease Control and Prevention (CDC)** and the **Health Resources and Services Administration (HRSA)**.
-* **Author Contact**: Dr. José I. Peña Bravo ([LinkedIn](https://linkedin.com/in/josepenabravo) | [GitHub](https://github.com/jpenabravoj00))
+* **Author Contact**: Dr. José I. Peña Bravo ([LinkedIn](https://linkedin.com/in/josepenabravo) | [GitHub](https://github.com/jpenabravoj00/opioid-surveillance-catchment-analysis))
