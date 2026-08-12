@@ -10,6 +10,7 @@
 data/raw_cdc_overdose_data.csv
 
 # Initial Planning & AI Critic Workspace Templates
+project_journal.md
 feasibility_analysis.md
 prompt_template_001.md
 prompt_template_002.md
