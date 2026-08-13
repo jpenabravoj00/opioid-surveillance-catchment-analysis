@@ -100,16 +100,6 @@ DIVIDE(
 
 ---
 
-## 🧠 Analytical Limitations & Technical Interview Defense
-
-To ensure complete transparency and rigor during technical portfolio reviews, the following analytical considerations are documented:
-
-1. **Multiple Cause-of-Death (MCOD) Overlap**: CDC VSRR summary data reports total code occurrences across death certificates. Because a decedent can have both `T40.4` (fentanyl) and `T43.6` (methamphetamine) listed simultaneously, category counts are not mutually exclusive. Future pipeline iterations can leverage CDC MCOD microdata to measure exact conditional co-occurrence probabilities: $P(T43.6 \mid T40.4)$.
-2. **Denominator Standardization**: The current Misalignment Index uses active HRSA site counts as an infrastructure proxy. A production health system model would incorporate HRSA Uniform Data System (UDS) patient throughput volume per 10,000 active patients.
-3. **Provisional Data Toxicology Lag**: Provisional CDC figures have an inherent 3–6 month toxicology processing delay. December reporting rows are utilized to capture stabilized trailing 12-month figures.
-
----
-
 ## 📂 Public GitHub Repository Structure
 
 Below is the verified list of files uploaded to your GitHub repository:
