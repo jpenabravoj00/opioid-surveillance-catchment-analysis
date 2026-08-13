@@ -1,18 +1,10 @@
-# System & OS Files
+# System & Environment Files
 .DS_Store
-
-# R Temporary & Workspace Files
 .Rhistory
 .Rproj.user
 *.log
 
-# Large Raw Datasets (Auto-downloaded by scripts/01_ingest_data.R)
-data/raw_cdc_overdose_data.csv
-
-# Initial Planning & AI Critic Workspace Templates
-project_journal.md
-feasibility_analysis.md
-prompt_template_001.md
-prompt_template_002.md
-portfolio_evaluator.json
-system_prompt.txt
+# Generic Data & Private Patterns
+data/raw_*
+*.json
+*.txt
