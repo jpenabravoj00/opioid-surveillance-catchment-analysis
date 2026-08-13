@@ -14,6 +14,10 @@ Public health overdose prevention programs face a critical structural friction p
 
 This project bridges **doctoral-level addiction neurobiology** and **epidemiological surveillance** to analyze official open-access government datasets from the **CDC** and **HRSA**. By engineering a reproducible R data pipeline and an interactive Power BI decision-intelligence dashboard, this portfolio piece identifies states where overdose mortality mathematically saturates available Federally Qualified Health Center (FQHC) primary care sites.
 
+![Power BI Dashboard Screenshot](image.png)
+
+🔗 Click here to open the Live Interactive Dashboard: [Opioid Surveillance & Primary Care Capacity Analysis](https://app.powerbi.com/reportEmbed?reportId=05ad9cac-2c0a-4517-826a-0dce97e81d46&autoAuth=true&ctid=c82f2d55-67d0-4a4a-8820-2f84a18c1cdd)
+
 ---
 
 ## 👨‍🔬 Domain Background & Author
